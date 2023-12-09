@@ -1,0 +1,2111 @@
+body{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 1440px;
+  background-color: #111111;
+  color: white;
+  font-family: 'Krub';
+}
+
+.KHeader{
+  width: 100%;
+  height: 100px; 
+  margin-top: 15px; 
+  position: relative; 
+  display: flex;  
+  justify-content: space-between;
+}
+
+.KatesHeaderFullLogo{
+  width: 200px; 
+  margin-left: 30px; 
+  justify-content: center; 
+  display: flex; 
+  align-items: center;
+}
+
+.KlogoSquare{
+  background-color: white; 
+  height: 17px; 
+  width: 18px; 
+  margin: -7px 0 0 -18px;
+}
+
+.KlogoText{
+  letter-spacing: 1.3px; 
+  font-weight: 570; 
+  font-size: 20px; 
+  font-family: 'Oswald'; 
+  margin: -8px 0 0 8px;
+}
+
+.KatesHeaderBtnLines{
+  width: 300px; 
+  margin-right: 20px; 
+  position: relative;  
+  display: flex;
+}
+
+.KatesHeaderMenu{
+  width: 572px; 
+  margin-left: 87px; 
+  position: relative; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.KatesHeaderMenuPoint{
+  color: white; 
+  font-family: 'Oswald'; 
+  letter-spacing: 0.7px; 
+  cursor: pointer; 
+  text-decoration: none;
+  font-weight: 400; 
+  font-size: 16.5px;
+}
+
+.KatesHeaderMenuPoint:hover {
+  text-decoration: underline white;
+  text-underline-offset: 15px;
+}
+
+
+.SignInBtn{
+  width: 100px; 
+  height: 35px; 
+  margin: -2px 0 0 10px; 
+  font-family: 'Oswald'; 
+  font-weight: 500; 
+  font-size: 17px; 
+  letter-spacing: 0.1px; 
+  cursor: pointer;
+}
+
+.SignInBtn:hover{
+  background-color: rgb(184, 133, 253);
+}
+
+.KatesHeaderLines{
+  width: 45%; 
+  height: inherit; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.KatesHeaderLinesImj{
+  margin: -2px 0 0 5px; 
+  cursor: pointer;
+}
+
+.KatesHeaderBtn{
+  width: 55%; 
+  height: inherit; 
+  justify-content: center; 
+  display: flex; 
+  align-items: center;
+}
+
+.KatesProDesignerLets{
+  width: 128px; 
+  height: 48px; 
+  background-color: rgb(185, 96, 253); 
+  margin: 36px 0 0 51px; 
+  color: white; 
+  font-family: 'Oswald'; 
+  font-size: 15px; 
+  letter-spacing: 1.3px; 
+  cursor: pointer;
+}
+
+.KatesProDesignerLets:hover{
+  background: #111111;
+}
+
+
+.KatesEmptyBlock{
+  width: 100%; 
+  height: 100px; 
+  display: flex; 
+  position: relative; 
+  justify-content: center;
+}
+
+.KatesManInCircle{
+  height: 655%; 
+  width: 382px; 
+  margin-left: -22px; 
+  z-index: 1; 
+  display: flex; 
+  position: relative; 
+  padding-top: 35px; 
+  align-items: center;
+}
+
+.KatesMan{
+  height: 646px; 
+  width: 307px; 
+  margin: 11px 0 0 19px; 
+  z-index: 1;
+}
+
+.KatesCircle{
+  height: 377px; 
+  width:377px; 
+  position: absolute; 
+  z-index: 0; 
+  margin: 60px 0 0 2px;
+}
+
+.KatesUiEditionFullBlock{
+  width: 100%; 
+  height: 130px; 
+  display: flex; 
+  position: relative; 
+  justify-content: space-between;
+}
+
+.UItext{
+  font-weight: 700; 
+  font-size: 132px; 
+  text-align-last: left; 
+  letter-spacing: 5px; 
+  margin: -13px 0 0 50px;
+}
+
+.Pointtext{
+  color: rgb(185, 96, 253); 
+  margin-left: -2px;
+}
+
+.KatesEditionFullBlock{
+  display: flex; 
+  position: relative; 
+  justify-content: center; 
+  align-items: center; 
+  width: 175px; 
+  height: 100px; 
+  border: 3px solid white; 
+  border-right: 0px; 
+  margin: 2px 0 0 0;
+}
+
+.KatesFullEditionTextBlock{
+  margin: 0 0 0 -15px;
+}
+
+.KatesEditionText{
+  font-size: 17px; 
+  font-weight: 600; 
+  text-align-last: center; 
+  letter-spacing: 3.5px;
+}
+
+.KatesEditionYear{
+  font-size: 30px; 
+  font-weight: 700; 
+  letter-spacing: 5px;
+}
+
+.KatesEmptyBlockForBeginners{
+  width: 1440px; 
+  height: 322px; 
+  position: relative; 
+  justify-content: space-around; 
+  display: flex;
+}
+
+.KatesProDesignerFullP{
+  height: 322px; 
+  width: 220px; 
+  display: flex; 
+  position: relative; 
+  align-items:end; 
+  justify-content: right;
+}
+
+.KatesProDesignerFullD{
+  height: 150px; 
+  width: 175px;
+}
+
+.OneMoreSquare{
+  background-color: white; 
+  height: 12px; 
+  width: 12px; 
+  margin: 18px 0 0 27px;
+}
+
+.KBecomesProDes{
+  height: 47px; 
+  width: 115px; 
+  display: flex; 
+  margin: -18px 0 0 54px; 
+  letter-spacing: 0.4px;
+}
+
+.KBecomesProDesText{
+  font-weight: 700; 
+  font-size: 14px; 
+  word-spacing: 4px; 
+  line-height: 26px;
+}
+
+.KatesEmptyBlockForJusify{
+  height: 322px; 
+  width: 50px; 
+  display: block;
+}
+
+.KatesProDesignerFullP2{
+  height: 322px; 
+  width: 350px; 
+  display: block; 
+  position: relative;
+}
+
+.KatesProDesignerStart{
+  font-size: 20px; 
+  margin: 38px 0 0 52px; 
+  font-weight: 700; 
+  letter-spacing: 0.8px; 
+  line-height: 30px;
+}
+
+.KatesProDesignerLorem{
+  padding-right: 15px; 
+  text-align: justify; 
+  font-size: 14px; 
+  margin: 8px 0 0 55px; 
+  hyphens: auto; 
+  line-height: 27px; 
+  font-weight: 600; 
+  letter-spacing: 0.6px;
+}
+
+.KLetsRead{
+  position: relative; 
+  display: flex;
+}
+
+.KatesProDesignerRead{
+  width: 128px; 
+  height: 48px; 
+  background-color:#111111; 
+  margin: 51px 0 0 26px; 
+  color: white; 
+  font-family: 'Oswald'; 
+  font-size: 14px; 
+  font-weight: 500;
+  letter-spacing: 1.3px; 
+  cursor: pointer;
+  word-spacing: 0px;
+
+}
+
+.KatesBeginnersBlock{
+  display: inline-block; 
+  margin-left: 48px; 
+  transform-origin: top left; 
+  transform: rotate(-90deg); 
+  font-weight: 100; 
+  font-size: 44px; 
+  text-align: left; 
+  letter-spacing: 4px;
+}
+
+.KatesManInCircleArr{
+  width: 100%; 
+  height: 138px;
+  margin-top: -58px; 
+  position: relative; 
+  justify-content: space-around; 
+  display: flex;
+}
+
+.KatesArrLeft{
+  width: 200px; position: relative; 
+  justify-content: right; 
+  align-items: center; 
+  display: flex
+}
+
+.KArr1{
+  margin: 20px 10px 0 0; 
+  transform: scale(-1, 1); 
+  cursor: pointer;
+}
+
+.KatesArrRight{
+  width: 200px; 
+  position: relative; 
+  justify-content: left; 
+  align-items: center; 
+  display: flex;
+}
+
+.KRotatedArr{
+  margin: 20px 0 0 10px; 
+  cursor: pointer;
+}
+
+.KatesNumbers{
+  background-color: #111111; 
+  width:100%; 
+  height: 218px; 
+  box-shadow: 0px -10px 10px -10px #000000, 0px 10px 10px -10px #000000; 
+  position: relative; 
+  justify-content: space-around; 
+  display: flex;
+}
+
+.KatesNumbersHappy{
+  height: 100%; 
+  width: 20%; 
+  margin-left: 20px; 
+  position: relative; 
+  align-items: center; 
+  display: flex;
+}
+
+.KFirstplusNum{
+  font-size: 51px; 
+  font-family: 'Oswald'; 
+  margin: 10px 0 0 32px; 
+  font-weight: 500;
+}
+
+.KFirstplus{
+  color: rgb(184, 133, 253);
+}
+
+.KHappyStud{
+  font-size: 23px; 
+  margin: 15px 0 0 20px; 
+  text-transform: uppercase; 
+  font-weight: 400; 
+  letter-spacing: 1.7px; 
+  line-height: 25px;
+}
+
+.KStudText{
+  font-weight: 600;
+}
+
+.KatesNumbersCertified{
+  height: 100%; 
+  width: 20%; 
+  position: relative; 
+  align-items: center; 
+  display: flex;
+}
+
+.KSecondplusNum{
+  font-size: 51px; 
+  font-family: 'Oswald'; 
+  margin: 10px 0 0 28px; 
+  font-weight: 500;
+}
+
+.KSecondplus{
+  color: rgb(184, 133, 253);
+}
+
+.KSertCours{
+  font-size: 23px; 
+  margin: 15px 0 0 15px; 
+  text-transform: uppercase; 
+  font-weight: 400; 
+  letter-spacing: 1.7px; 
+  line-height: 25px;
+}
+
+.KCours{
+  font-weight: 600;
+}
+
+.KatesNumbersAwards{
+  height: 100%; 
+  width: 20%; 
+  position: relative; 
+  align-items: center; 
+  display: flex;
+}
+
+.KThirdplusNum{
+  font-size: 51px; 
+  font-family: 'Oswald'; 
+  margin: 11px 0 0 15px; 
+  font-weight: 500;
+}
+
+.KThirdplus{
+  color: rgb(184, 133, 253);
+}
+
+.KAwarRec{
+  font-size: 23px; 
+  margin: 15px 0 0 9px; 
+  text-transform: uppercase; 
+  font-weight: 400; 
+  letter-spacing: 1.7px; 
+  line-height: 25px;
+}
+
+.KRec{
+  font-weight: 600;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+.Saneta{ 
+  width: 1440px;
+  height:190px;
+}
+
+.Katecontainer2{
+  position: relative;
+  width: 1440px;
+  height: 690px;
+}
+
+.Katetest21{
+  padding: 0px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width:1440px;
+ 
+}
+
+.Vertical1{
+  position: relative;
+  display: flex;
+  margin-top: -2px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25px;
+  width: 228px;
+  padding: 0px 0px 98px 0px;
+  transform: rotate(270deg);
+}
+
+.Verticalleft{
+   margin: 0;
+   padding: 0;
+   font-family: 'Krub';
+   color: white;
+   font-size: 15px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   align-items: right;
+}
+
+.Katesquareleft{
+  padding-top: 4px;
+  font-size: 14px;
+  align-items: end;
+}
+
+.Vertical2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+  width: 228px;
+  transform: rotate(90deg);
+}
+
+.Verticalright{
+   margin: 0;
+   padding: 0;
+   font-family: 'Krub';
+   color: white;
+   
+   font-size: 15px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   align-items: right;
+}
+
+.Katesquareright{
+  padding-top: 4px;
+  font-size: 14px;
+  align-items: end;
+}
+
+
+.KateCenter2{
+   margin-right: 2px;
+   padding: 0;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;  
+  
+}
+
+.OvalCenter{
+   width: 830px;
+   height:400px;
+   background-image: url("images/KateOval.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 200px right;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.centerwords{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 27px;
+  padding: 0;
+  height:340px;
+  width:600px;
+}
+
+
+.KateAcceptCenter{
+   margin: 0;
+   height:105px;
+   padding-top: 25px;
+   font-family: 'Krub';
+   color: white;
+   font-size: 85px;
+   font-weight: 700;
+   letter-spacing: 5px;
+}
+
+.KateNewCenter{
+   margin: 0;
+   font-family: 'Krub';
+   color: white;
+   font-size: 80px;
+   font-weight: 399;
+   padding-left: 6px;
+   letter-spacing: 8px;
+   height: 93px;
+}
+
+.KateChallengeCenter{
+   margin: 0;
+   padding: 0;
+   font-family: 'Krub';
+   color: white;
+   font-size: 90px;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+
+.smallcircleleft{
+  font-size: 22px;
+  color: rgb(170, 132, 249);
+  padding-top: 93px;
+  padding-left: 22px;
+}
+
+.smallcircleright{
+  font-size: 22px;
+  color: rgb(170, 132, 249);
+  padding-right: 45px;
+  transform: translateY(62%);
+}
+
+.Katetest22{
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.KateFooterleft{
+  margin: 0;
+  padding-left: 57px;
+  font-family: 'Krub';
+  font-size: 50px;
+  color:rgb(37, 37, 37);
+  letter-spacing: 3px;
+  font-weight: 700;
+
+}
+
+.ArrowDownPct{
+  margin-top: 15px;
+  width: 30px;
+  height:75px;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.KateFooterright{
+  margin: 0;
+  padding-right: 55px;
+  font-family: 'Krub';
+  font-size: 50px;
+  color:rgb(37, 37, 37);
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.krisa{
+  width: 87px;
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+.gr2mainPart {
+  width: 1440px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gr2findcourseblock{
+  width: 610px; 
+  display: flex
+}
+
+.gr2findText {
+  margin: -5px 0 0 50px;
+  font-size: 117px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  /* padding: 0; */
+}
+
+.gr2courseText {
+  font-family: 'Krub';
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin: 75px 0 0 11px;
+}
+
+.gr2editionFull {
+  padding: 80px 10px 0 10px;
+  width: 165px;
+  margin-top: -4px;
+}
+
+.gr2whitesquare {
+  color: white;
+  height: 12px;
+  width: 12px;
+  margin: 0 0 0 2px;
+}
+
+.gr2editionText {
+  margin: 21px 0 0 15px;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Krub";
+  letter-spacing: 3.5px;
+  /* padding: 0; */
+}
+
+.gr2yearText {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  margin: 0 0 0 33px;
+}
+
+.gr2emptyblock{
+  width: 1440px;
+  height: 94px;
+  /* background-color: aqua; */
+}
+
+.gr2courses { 
+  width: 1340px;
+  color: white;
+  height: 365px;
+  display: flex;
+  margin: 0 0 0 55px;
+}
+
+.gr2course{
+  /*max-width: 292px;*/
+  width: 286px; 
+  height: 370px; 
+  border: 3px solid white;
+}
+
+.gr2c_02{
+  margin-left: 62px;
+}
+
+.gr2c_03{
+  margin-left: 43px;
+}
+
+.gr2c_04{
+  margin-left: 56px;
+}
+
+
+.gr2square{
+  display: flex;
+  background-color: white; 
+  height: 43px; 
+  width: 43px;
+  color: black;    
+}
+
+.gr2numeration{
+  margin: 9px 0 0 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.gr2nameCourse{
+  margin: 33px 0 0 50px;
+  font-weight: 650;
+  font-size: 33.5px;
+  letter-spacing: 1.5px;
+}
+
+.gr2num{
+  color: rgb(184, 133, 253);
+}
+
+.gr2Line{
+  /*margin-left: auto;
+  margin-right: auto;*/
+  align-items:center;
+  justify-content: center;
+  margin-top: 15px;
+  transform: translateX(213.8%);
+  max-width: 286px;
+  border-bottom: 2px solid rgb(184, 133, 253);
+  width: 54px;
+  /*margin:auto;*/
+  /*z-index: 100;*/
+}
+
+.gr2description{
+  /*background-color: #aa84f9;*/
+  font-family: 'Krub';
+  margin: 18px 0 0 40px;
+  width: 208px;
+  font-weight: 600;
+  font-size: 14.5px;
+  letter-spacing: 0.3px;
+  word-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.8;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.gr2readmoreBtn{
+  background-color: rgb(184, 133, 253);
+  color:white;
+  height: 50px;
+  width: 128px;
+  font-family: 'Oswald';
+  font-weight: 420;
+  font-size: 14.6px;
+  letter-spacing: 1.2px;
+  margin: 30px 0 0 80px; 
+  cursor: pointer;
+}
+
+.gr2readmoreBtn:hover{
+  background-color: black;
+}
+
+.gr2morecoursesBlock{
+  height: 55px;
+  width: 1440px;
+  display: flex;
+  margin: 70px 2px 0 0; 
+  /* width: 100%;  */
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.gr2morecoursesText{
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-right: 70px;
+  margin: 16px 0 0 -42px;
+}
+
+#gr2arrowright{
+  margin: 9px 0 0 -22px;
+  width: 90px;
+  height: 30px;
+  /* transform: translateX(-773.8%);  */
+  cursor: pointer;
+}
+
+.gr2empty{
+  height: 37px;
+}
+
+.gr2Figury{
+  height: 220px; 
+  width: 1440px; 
+  display: flex; 
+  justify-content: space-between;
+}
+
+.gr2OvalCircle_1{
+  height:100%; 
+  width: 190px; 
+  margin-top: 0px;
+  display: flex;
+}
+
+.gr2Oval_1{
+  position: relative;
+  z-index: 0;
+  margin: 9px 0 0 0;
+  width: 192px;
+  height: 209px;
+}
+
+.gr2Oval_1imj{
+  width: 188px; 
+  height: 209px;
+}
+
+.gr2Circle_1{
+  position: relative;
+  z-index: 1;
+  right: 55px;
+  top: -1px;
+  width: 22.5px;
+  height: 22.5px;
+}
+
+.gr2Circle_1imj{
+  width: 22.5px; 
+  height: 22.5px; 
+  margin-top: 3px;  
+  margin-right: 1px;
+}
+
+
+.gr2CircleBlock-1{
+  height:100%; 
+  width: 215px;
+  justify-content: left;
+}
+
+.gr2Circle_2{
+  height: 100%; 
+  width: 11%;
+}
+
+.gr2Circle_2imj{
+  margin-top: 85px;
+  width: 22.5px;
+  height: 22.5px;
+}
+
+.gr2mainAbout{
+  display: flex; 
+  justify-content: space-around; 
+  width: 100%; 
+  height: 630px; 
+  margin-top: -110px; /*!*/
+}
+
+.gr2leftAbout{
+  width: 35%;
+  height: 100%; 
+  margin-left: 50px; 
+  display: block;
+}
+
+.gr2spaceAbout{
+  width: 1440px;
+  /* width: 100%;  */
+  height: 115px;
+}
+
+.gr2headerAbout{
+  width: 310px;
+  /* width: 100%;  */
+  height: 90px; 
+  display: flex; 
+  justify-content: center;
+  margin-left: 37px;
+}
+
+.gr2about{
+  margin: 3px 0 0 19px; 
+  font-size: 60px; 
+  font-family: "Krub"; 
+  font-weight: 900; 
+  letter-spacing: 3.6px;
+}
+
+.gr2us{
+font-size: 60px; 
+font-family: "Krub";
+margin: 3px 0px 0 12px; 
+letter-spacing: 7px;
+color: rgb(184, 133, 253);
+}
+
+.gr2loremText{
+text-align: justify;
+text-align-last: left; 
+width: 75.2%; 
+height: 105px; 
+margin: 15px 0 0 47px; 
+display: flex; 
+font-size: 14px;
+font-weight: 600;
+line-height: 1.8;
+letter-spacing: 0.69px;
+}
+
+.gr2iconsAbout{
+  width: 87%; 
+  height: 110px; 
+  margin: 30px 0 0 42px; 
+  justify-content: space-between; 
+  display: flex;
+}
+
+.gr2lefticonsAbout{
+  width: 36.5%; 
+  height: 110px; 
+  margin-top: -3px;  
+  display: block;
+}
+
+.gr2righticonsAbout{
+  width: 36.5%; 
+  height: 110px; 
+  margin-top: -2px;  
+  display: block;
+}
+
+.gr2maninCircle{
+  width: 35%; 
+  height: 100%; 
+  margin-right: 35px; 
+  display: flex; 
+  align-items: center;
+}
+
+.gr2bottomAbout{
+  /*margin-top: -10px;*/ 
+  display: flex;; 
+  justify-content: space-between; 
+  width: 100%; 
+  height: 280px; 
+  margin-top: 57px;
+}
+
+.gr2leftbottomAbout{
+  height: 100%;
+  /* width: 100%;  */
+  width: 198px;
+}
+
+.gr2centerbottomAbout{
+  margin-top: -1px; 
+  height: 102%; 
+  width: 198px; 
+  padding-right: 48px;
+}
+
+.gr2rightbottomAbout{
+  height: 100%; 
+  width: 198px; 
+  display: flex;
+}
+
+.gr2higherleft{
+margin: 17px 0 0 5px;
+width: 3px;
+height: 3px;
+color: rgb(184, 133, 253);
+}
+.gr2higherright{
+margin: 17px 0 0 5px;
+width: 3px;
+height: 3px;
+color: rgb(184, 133, 253);
+}
+.gr2lowerleft{
+margin: 58px 0 0 5px;
+width: 3px;
+height: 3px;
+color: rgb(184, 133, 253);
+}
+.gr2lowerright{
+margin: 58px 0 0 5px;
+width: 3px;
+height: 3px;
+color: rgb(184, 133, 253);
+}
+
+.gr2Lorem3_1, .gr2Lorem3_2,
+.gr2Lorem3_3, .gr2Lorem3_4{
+font-size: 12px;
+font-weight: bold;
+font-family: 'Krub';
+margin: -5px 0 0 14px;
+letter-spacing: 0.6px;
+}
+
+.gr2Lorem3_1{
+  padding-top: 5px;
+}
+
+.gr2Lorem3_2{
+margin-right: -14px;
+}
+
+.gr2Lorem3_3{
+margin-right: -7px;
+padding-top: 5px;
+}
+
+.gr2aboutusBtn{
+margin: 53px 0 0 46px;
+}
+
+.gr2bigCircle{
+margin: 4px 0 0 50px;
+height: 396px; 
+width: 396px;
+position: relative;
+z-index: 1;
+}
+
+.gr2manincircle{
+width: 483px;
+height: 647px;
+position: relative;
+z-index: 2;
+right: 440px; /*!*/
+top: -11px;
+}
+
+.gr2Oval_2{
+position: relative;
+z-index: 1;
+margin: 20px 0 0 0;
+width: 198px;
+height: 248px;
+}
+
+.gr2Circle_3{
+position: relative;
+z-index: 2;
+right: 131px; /*!*/
+top: 7px;
+width: 22.5px;
+height: 22.5px;
+}
+
+.gr2Circle_4{
+  z-index: 100;
+  width: 22.5px;
+  height: 22.5px;
+  top: 0px;
+}
+
+.Nikcontaier1{
+  position: relative;
+  margin-top: 50px;
+  width: 1440px;
+  height: 868px;
+
+}
+
+.Niktest1{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height:623px;
+}
+
+.Nikleftpart1{
+  position: relative;
+  display: flex;
+  width: 700px;
+  height:433px;
+  background-image: url("images/NikOval.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 57px 0px 0px 55px;
+}
+
+.Sanecenter1
+{
+  margin-left: 71px;
+  position: relative;
+  display: flex;
+  width:533px;
+  align-items: flex-start;
+  height:500px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.Nikrightcircle
+{
+  align-self: flex-end;
+  font-size: 21px;
+  padding:0px 0px 62px 0px;
+  color: rgb(184, 133, 253);
+}
+
+.Nikleftcircle
+{
+  align-items: flex-start;
+  font-size: 21px;
+  margin-top:-6px;
+  color: rgb(184, 133, 253);
+}
+
+.Nikcentercircle{
+  position: relative;
+  display: flex;
+  width: 396px;
+  height:396px;
+  background-image: url("images/NikcenterOval.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 33px 10px 0px 0px;
+
+}
+
+.NikFure
+{
+  width:500px;
+  height:625px;
+  margin-top: -70px;
+  padding-left: 30px;
+}
+
+.Nikcenterpart1
+{
+  margin: -8px 0px 0px 0px;
+  padding: 0px 0px 0px 21px;
+  width:376px;
+  height:380px;
+  position: relative;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-direction:column;
+}
+
+.NikWhy{
+  padding: 0px 0px 0px 0px;
+  margin-top: 4px;
+  font-size:60px;
+  letter-spacing: 3px;
+  font-family: 'Krub';
+  color: white;
+}
+
+.NikUs{
+  padding-left: 10px;
+  margin-top: 4px;
+  margin-left: 2px;
+  font-size:60px;
+  font-weight: 500;
+  letter-spacing: 8px; 
+  color:rgb(184, 133, 253);
+
+}
+
+.NikWhyUsText{
+  padding: 5px 0px 5px 0px;
+  align-self:flex-start;
+  margin: -65px 0px 0px 0px;
+  letter-spacing: 1px;
+  word-spacing: 0.5px;
+  font-size: 13px;
+  font-family: 'Krub';
+  line-height: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+  color:white;
+  font-weight: 600;
+}
+
+.NikButton{
+  margin: 0px 0px 34px 0px;
+  background-color: rgb(184, 133, 253);
+  color:white;
+  height: 50px;
+  width: 128px;
+  font-family: 'Oswald';
+  font-weight: 420;
+  font-size: 14.6px;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  
+}
+
+.NikButton:hover{
+  background-color: #111111;
+}
+
+.NikExplore{
+  position: relative;
+  font-family: 'Krub';
+  writing-mode: vertical-rl;
+  transform: scale(-1, -1);
+  text-align: right;
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 15px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 54px 0px;
+  width:80px;
+  height:623px;
+  overflow: hidden;
+  color:rgb(37, 37, 37);
+  
+}
+
+.NikLastPart1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.NikLastCircle{
+  margin: 23px 100px 0px 0px;
+  padding: 0px 33px 0px 0px;
+  font-size:21px;
+  color: rgb(184, 133, 253);
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+.Nikcontaier2{
+  position: relative;
+  width:1440px;
+  height:675px;
+}
+
+.Niktest2{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.Nikcenterpart2{
+  position: relative;
+  display: flex;
+  width:1045px;
+  height:606px;
+  background-color:rgb(226, 226, 226);
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.Nikcenterpodpart{
+  position: relative;
+  width:490px;
+  height:570px;
+  background-image: url("images/NikFure2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-self: flex-end;
+  display: flex;
+}
+
+.NikCenterYoutube{
+  position: relative;
+  font-size:100px;
+  align-self: center;
+  margin: -8px 0px 0px 53px;
+  cursor: pointer;
+}
+
+.Nikleftpodpart{
+  position: relative;
+  font-size:85px;
+  font-weight:500;
+  font-family: 'Oswald';
+  align-self: center;
+  margin: 47px 0px 0px 58px;
+  letter-spacing: 5px;
+  color: rgb(171, 170, 170);
+}
+
+.Nikrightpodpart{
+  position: relative;
+  font-size:85px;
+  font-weight:500;
+  font-family: 'Oswald';
+  align-self: center;
+  margin: 45px 53px 0px 0px;
+  letter-spacing: 4px;
+  color: rgb(171, 170, 170);
+}
+
+.Nikleftpart2{
+  position: relative;
+  display: block;
+  align-self: center;
+  margin: 70px 0px 0px 50px;
+
+}
+
+.NikleftpartVer2{
+  height:140px;
+  writing-mode: vertical-rl;
+  transform: scale(-1, -1);
+  margin: 21px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Krub';
+  font-size:20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.NikArrowLeft{
+  size: 50px;
+  margin: 8px 0px 0px 15px;
+  cursor: pointer;
+}
+
+p.NikleftpartVer2{
+  text-align: right;
+}
+
+.Nikrightpart2{
+  position: relative;
+  display: block;
+  align-self: center;
+  margin: 70px 50px 0px 0px;
+
+}
+
+.NikrightpartVer2{
+  height:140px;
+  writing-mode: vertical-rl;
+  transform: scale(-1, -1);
+  margin: 7px 0px 28px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Krub';
+  font-size:20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+ 
+}
+
+p.NikrightpartVer2{
+  text-align: left;
+}
+
+.NikArrowright{
+  size: 50px;
+  margin: 5px 0px 0px 12px;
+  cursor: pointer;
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
+.Alexcontainer1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 1440px;
+  background-color: #111111;
+  
+}
+
+.Alextest1 {
+  padding-top: 70px;
+  position: relative;
+  background-color: #111111;  
+  height: 800px;
+}
+
+.Alexdivblock1{
+  position: relative;
+
+}
+
+.What{
+  margin: 2px;
+  position: relative;
+  font-family: 'Krub';
+  font-size: 94px;
+  text-align: center;
+  font-weight: 100px; /*1440*/
+  letter-spacing: 3px;
+  line-height: 94px;
+  color: white;
+}
+.d-flex {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 79px;
+}
+
+
+.person1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 1px 0px 58px;
+}
+
+.person2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 0px 12px;
+}
+
+.person3{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 65px 0px 0px;
+}
+
+.img1{
+  border-radius: 50%;
+  height :  171px;
+  width: 171px;
+  border: 3px rgb(170, 132, 249) solid;
+  padding: 0;
+  margin: 0;
+}
+
+.imgname1{
+  position: relative;
+  font-family: 'Krub';
+  font-weight: 700;
+  font-size: 19px;
+  padding: 20px 0px 0px 10px;
+  margin: 0px 0px 0px 5px;
+  text-align: justify;
+  align-self: center;
+  color: rgb(174, 174, 174);
+  letter-spacing: 0.8px;
+  word-spacing: 0.05px;
+  width:138px;
+}
+
+.imgname2{
+  position: relative;
+  font-family: 'Krub';
+  font-weight: 700;
+  font-size: 19px;
+  padding: 20px 0px 0px 10px;
+  margin: 0px 0px 0px 6px;
+  text-align: justify;
+  align-self: center;
+  color: rgb(174, 174, 174);
+  letter-spacing: 0.7px;
+  word-spacing: 2px;
+  width:138px;
+}
+
+.imgname3{
+  position: relative;
+  font-family: 'Krub';
+  font-weight: 700;
+  font-size: 19px;
+  padding: 20px 0px 0px 10px;
+  margin: 0px 0px 0px -3px;
+  text-align: justify;
+  align-self: center;
+  color: rgb(174, 174, 174);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  width:138px;
+}
+
+.longarrows{
+  position: relative;
+
+  margin-top: 88px;
+  transform: translateX(40.8%);
+ 
+}
+
+.longarrowleft{
+  margin-right:59px;
+  cursor: pointer;
+  
+}
+
+.longarrowright{
+  margin-left: 59px;
+}
+
+#ptrright{
+  cursor: pointer;
+}
+
+.stars1{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  letter-spacing: 14px;
+  margin: 30px 0px 0px 14px; 
+  padding: 0px 0px 0px 0px;
+}
+
+.stars2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 14px;
+  margin: 30px 0px 0px 14px; 
+  padding: 0px 0px 0px 0px;
+}
+
+.stars3{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 14px;
+  margin: 30px 0px 0px 6px; 
+  padding: 0px 0px 0px 0px;
+}
+
+
+.usersthink{
+  position: relative;
+  font-family: 'Krub'; /*KrubR*/
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 4.2px;
+  margin: -6px;
+  color: rgb(170, 132, 249);
+
+}
+
+.quote1 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 27px 0px 0px -8px;
+  padding: 0;
+}
+
+.quote3 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 27px 0px 0px -8px;
+  padding: 0;
+}
+
+.quote-text {
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  width: 231px;
+  letter-spacing: 0.5px;
+  font-family:'Krub'; /*KrubS*/
+  color: rgb(174, 174, 174);
+  font-size: 13px;
+  line-height: 1.8;
+  font-weight: 700;
+  text-align: justify;
+  text-align-last:center;
+}
+
+.top-quote {
+  display: flex;
+  align-self: flex-start;
+  margin: -10px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+  font-size: 20px;
+  color: rgb(109, 67, 200);
+}
+
+.bottom-quote {
+  align-self: flex-end;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 12px -9px 0px;
+  font-size: 20px;
+  color: rgb(109, 67, 200);
+}
+
+.Closepart{
+  display: flex;
+  justify-content:flex-end;
+  padding-top: 80px;
+  background-color: #111111;
+  height: 970px;
+  background-image: url("images/Alexlastpicturenew.png");
+  
+  background-repeat: no-repeat;
+  background-size: 63%;
+  background-position: bottom 0px left;   
+}
+.tableflex{
+  position: relative;
+}
+
+.tablefig{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  filter: none;
+  width: 50%;
+  height: 100%;
+}
+
+.sub{
+  filter: none;
+  position: relative;
+  margin: 0;
+  padding: 40px 75px 0px 0px;
+  font-family: 'Krub';
+  color: white;
+  font-size: 50px;
+  letter-spacing: -1px;
+  margin: 0;
+
+}
+
+.newsletters{
+  font-family: 'Krub'; /*KrubR*/
+  font-size: 45px;
+  color:rgb(151, 110, 206);
+  word-spacing: -2.5px;
+  margin: 0px 43px 8px 0px;
+  padding: 0px 20px 0px 0px;
+  font-weight: 500;
+  letter-spacing: 5.5px;
+}
+
+.string{
+  width: 455px;
+  font-family: 'Krub'; /*KrubS*/
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  word-spacing: 0.3px;
+  margin: 0px 65px 0px -30px;
+  padding: 0px 0px 0px 20px; 
+  line-height: 1.9;
+  text-align: justify;
+  text-align-last:center;
+  letter-spacing: 0.4px;
+}
+
+.img2{
+  position: absolute;
+  left: 0;
+}
+
+.lastimg{
+  position: relative;
+  padding-top: 110px;
+  filter: grayscale(100%);
+}
+
+
+.inputname{
+  margin: 92px 0px 0px 68px;
+  padding-left: 40px ;
+  resize: none;
+  width: 465px;
+  height: 64px;
+  background-color: #111111;
+  color: rgb(106, 106, 106);
+  border: 3px rgb(151, 110, 206) solid;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Krub';
+
+}
+
+.inputmail{
+  margin: 55px 0px 0px 68px;
+  padding-left: 40px ;
+  resize: none;
+  width: 465px;
+  height: 64px;
+  border: 3px rgb(151, 110, 206) solid;
+  background-color: #111111;
+  color: rgb(106, 106, 106);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Krub';
+}
+
+.inputmessage{
+  margin: 47px 0px 50px -5px;
+  transform: translateX(-6.5%);
+  resize: none;
+  width: 465px;
+  height: 150px;
+  border: 3px rgb(151, 110, 206) solid;
+
+  padding: 25px 0px 0px 40px;
+  background-color:inherit;
+  color: rgb(106, 106, 106);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Krub';
+}
+
+.buttonblock{
+  margin: 35px 0px 0px -3px;
+  transform: translateX(-20%);
+  background-color: rgb(151, 110, 206);
+  color:white;
+  font-size: 15px;
+  font-family: 'Oswald';
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  text-decoration: none;
+  border: 2px rgb(76, 70, 83) solid;
+  padding: 0px 0px 0px 0px;
+  width: 170px;
+  height: 65px;
+  cursor: pointer;
+}
+
+
+.buttonblock:hover{
+  background-color: #111111;
+}
+
+.footercontainer{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 740px;
+  background-color: rgb(151, 110, 206);
+}
+
+.testfooter{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 242px;
+  padding-left: 55px;
+}
+
+.firstfooter{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 3px;
+}
+
+.linkAbout{
+  font-family: 'Krub';
+  font-weight: 600;
+  color: white;
+  font-size: 34px;
+  letter-spacing: 3.5px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.historyfooter{
+  font-family: 'Krub'; /*KrubM*/
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 35px;
+  letter-spacing: 0px;
+  color: white;
+
+
+}
+
+.Ourteamfooter{
+  font-family: 'Krub';
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 12px;
+  letter-spacing: 1.4px;
+  color: white;
+  word-spacing: -6px;
+
+}
+
+.Missionfooter{
+  font-family: 'Krub';
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 13px;
+  letter-spacing: -0.9px;
+  color: white;
+  word-spacing: 1px;
+  
+}
+
+.Statementpart{
+  letter-spacing: 1px;
+}
+
+.Termsfooter{
+  font-family: 'Krub';
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 12px;
+  letter-spacing: 1px;
+  color: white;
+  word-spacing: -5px;
+}
+
+.Conditionpart{
+  letter-spacing: 0.5px;
+}
+
+.policefooter{
+  font-family: 'Krub';
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 12px;
+  letter-spacing: 0.4px;
+  color: white;
+  word-spacing: -4px;
+}
+
+.Policypart{
+  letter-spacing: 0.4px;
+}
+
+.secondfooter{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: left; 
+  padding-right: 154px;
+}
+
+.linkWhat{
+  font-family: 'Krub';
+  color: white;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: 2.2px;
+  text-decoration: underline;
+  text-underline-offset: 15px;  
+  word-spacing: 2.6px;
+  margin: 0 0 0 0px;
+}
+
+.Newsandfooter{
+  font-family: 'Krub'; /*KrubM*/
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 35px;
+  padding-right: 10px;
+  letter-spacing: 0.7px;
+  word-spacing: -2px;
+  color: white;
+}
+
+.publicationfooter{
+  color: white;
+  font-family: 'Krub';
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin: 12px 0 0 0px;
+}
+
+.takeactionfooter{
+  color: white;
+  font-family: 'Krub';
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 13px 0 0 0px;
+}
+
+.recomendationfooter{
+  color: white;
+  font-family: 'Krub';
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  margin: 12px 0 0 0;
+}
+
+.helpfooter{
+  color: white;
+  font-family: 'Krub';
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin: 11px 0 0 0px;
+}
+
+.thirdfooter{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end; 
+}
+
+.signfooter{
+  font-family: 'Krub';
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 2px;
+  padding-right: 60px;
+  letter-spacing: 0.9px;
+  word-spacing: -2px;
+  color: white;
+}
+
+#slash{
+  font-weight: 100;
+  font-size: 33px;
+}
+
+.Ourfooter{
+  font-family: 'Krub';
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-right: 60px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  color: white;
+  align-items: right;
+}
+
+.inputfooter{
+  width: 490px;
+  background-color:inherit;
+  height:58px;
+  resize: none;
+  border: 3px rgb(255, 255, 255) solid;
+  margin-top: 52px;
+  margin-right: 59px;
+
+}
+
+.lastpictures{
+  text-align: right;
+  position: relative;
+  display: flex;
+  justify-content:right;
+  margin-top: -18px;
+}
+
+.row1{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  width: 38%;
+  padding-bottom: 21px;
+  padding-right: 2px;
+}
+
+.followfooter{
+  font-family: 'Krub'; /*KrubM*/
+  margin-top: 15px;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+}
+
+
+.facebook{
+  position: relative;
+  align-items: center;
+  z-index: 1;
+}
+
+.instagram{
+  position: relative;
+  align-items: center;
+  z-index: 1;
+}
+
+.youtube{
+  position: relative;
+  align-items: center;
+  z-index: 1;
+}
+
+.Circle11{
+  margin: 0 0 0 45px;
+  cursor: pointer;
+}
+
+.Circle12{
+  margin: 0 0 0 68px;
+  cursor: pointer;
+}
+
+.Circle13{
+  margin: 0 0 0 68px;
+  cursor: pointer;
+}
+
+
+.boo{
+  color: rgb(109, 67, 200);
+  font-size: 23px;
+  font-weight: 0px;
+  position: relative;
+  z-index: 2;
+  top: -48px;
+  right: 25px;
+}
+
+.gram{
+  color: rgb(109, 67, 200);
+  position: relative;
+  z-index: 2;
+  top: -44px;
+  right: 19px;
+}
+
+.tube{
+  color: rgb(109, 67, 200);
+  position: relative;
+  z-index: 2;
+  top: -44px;
+  right: 18px;
+}

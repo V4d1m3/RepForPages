@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Krub';
+    src: url('Krub-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KrubR';
+    src: url('Krub-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KrubS';
+    src: url('Krub-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KrubM';
+    src: url('Krub-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KrubL';
+    src: url('Krub-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
